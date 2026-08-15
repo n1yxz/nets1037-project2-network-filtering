@@ -1,0 +1,6 @@
+# Example domain blacklist — both apex and dotted forms required
+# (bare apex-only entries failed to match during testing)
+example.com
+.example.com
+blockedsite.org
+.blockedsite.org

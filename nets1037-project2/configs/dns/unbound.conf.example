@@ -1,0 +1,19 @@
+# Unbound DNS config — NETS1037 Project 2
+# Paired with firewall NAT hijack of port 53 (see configs/firewall/rules_summary.md)
+
+server:
+    interface: 0.0.0.0
+    port: 53
+    access-control: 0.0.0.0/0 allow
+
+    # DNS lockdown — reject queries that try to negotiate DoT/DoH bypass
+    # (actual bypass prevention is enforced at the firewall layer via port/IP blocks;
+    # this just ensures Unbound itself won't forward to external DoT/DoH upstreams)
+
+# --- Blocklist via pfBlockerNG-managed zone file ---
+include: /var/unbound/pfb_dnsbl_ubround.conf
+
+# --- Verification command (client-side) ---
+# resolvectl status
+# Confirms which DNS server the client is actually using — reliable way to prove
+# DNS lockdown is active during a live demo.

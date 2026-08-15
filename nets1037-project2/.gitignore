@@ -1,0 +1,10 @@
+# OPNsense config backups may contain hashed passwords / internal IPs — review before committing
+*.xml.bak
+*secrets*
+*.pem
+*.key
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+*.swp
