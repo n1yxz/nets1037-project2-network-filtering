@@ -1,5 +1,11 @@
 # NETS1037 — Project 2: Transparent Network Filtering Gateway
 
+> **Note on configs:** The lab VMs (OPNsense gateway + client) used to build and test
+> this project are no longer available, so the files under `configs/` are reconstructed
+> from the actual build process rather than live exports. They accurately represent the
+> rules, ACLs, and settings implemented and tested during the project, but are written
+> up manually rather than pulled directly from the running system.
+
 A transparent filtering gateway built on OPNsense, demonstrating traffic interception,
 domain/DNS filtering, HTTPS inspection, intrusion detection, and bypass-resistance
 testing against common circumvention techniques (Tor, VPNs, DoH/DoT, QUIC).
