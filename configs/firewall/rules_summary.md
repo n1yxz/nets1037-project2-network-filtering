@@ -1,8 +1,9 @@
 # OPNsense Firewall Rules — NETS1037 Project 2
 
-> Export your actual rules from Firewall > Rules > LAN (and WAN if applicable) via
-> the "Export configuration" option and drop the XML/CSV here. Below is the logical
-> summary of every rule implemented, for reference and grading clarity.
+> **Note:** The OPNsense lab VM used to build and test this ruleset is no longer
+> available, so no live rule export (XML/CSV) is included. The table below is a
+> reconstructed summary of every rule actually implemented and tested during the
+> project, in the order they were evaluated.
 
 ## Rule ordering note (critical)
 
