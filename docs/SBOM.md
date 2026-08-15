@@ -2,12 +2,12 @@
 
 | # | Component     | Version (as tested) | License      | Source / Repo                                      | Role in project |
 |---|----------------|----------------------|--------------|------------------------------------------------------|------------------|
-| 1 | OPNsense       | (fill in from System > Firmware > Status) | BSD 2-Clause | https://github.com/opnsense/core        | Core filtering gateway OS |
-| 2 | Squid          | (fill in from Services > Squid > General) | GPL-2.0      | https://github.com/squid-cache/squid    | Transparent proxy, SNI-peek HTTPS inspection |
-| 3 | SquidGuard     | (fill in from plugin version)             | GPL-2.0      | https://github.com/opnsense/plugins (os-squidguard) | Domain/URL blacklisting |
-| 4 | Unbound        | (fill in from Services > Unbound)         | BSD-3-Clause | https://github.com/NLnetLabs/unbound    | DNS resolver, DNS lockdown |
-| 5 | pfBlockerNG    | (fill in from plugin version)             | GPL-2.0      | https://github.com/opnsense/plugins (os-pfBlockerNG) | DNS-layer blocklists |
-| 6 | Suricata       | (fill in from Services > Intrusion Detection) | GPL-2.0  | https://github.com/OISF/suricata        | IDS/IPS, Tor/VPN signature detection |
+| 1 | OPNsense       | Version not recorded - lab environment decommissioned before this was captured | BSD 2-Clause | https://github.com/opnsense/core        | Core filtering gateway OS |
+| 2 | Squid          | Version not recorded - lab environment decommissioned before this was captured) | GPL-2.0      | https://github.com/squid-cache/squid    | Transparent proxy, SNI-peek HTTPS inspection |
+| 3 | SquidGuard     | Version not recorded - lab environment decommissioned before this was captured             | GPL-2.0      | https://github.com/opnsense/plugins (os-squidguard) | Domain/URL blacklisting |
+| 4 | Unbound        | Version not recorded - lab environment decommissioned before this was captured         | BSD-3-Clause | https://github.com/NLnetLabs/unbound    | DNS resolver, DNS lockdown |
+| 5 | pfBlockerNG    | Version not recorded - lab environment decommissioned before this was captured             | GPL-2.0      | https://github.com/opnsense/plugins (os-pfBlockerNG) | DNS-layer blocklists |
+| 6 | Suricata       | Version not recorded - lab environment decommissioned before this was captured | GPL-2.0  | https://github.com/OISF/suricata        | IDS/IPS, Tor/VPN signature detection |
 | 7 | Mozilla VPN (client, bypass-test tool) | 2.39.0 | MPL-2.0 | https://github.com/mozilla-mobile/mozilla-vpn-client | Bypass/circumvention testing on client VM |
 
 ## Notes
