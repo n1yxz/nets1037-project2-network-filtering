@@ -1,6 +1,7 @@
 # Squid transparent proxy config — NETS1037 Project 2
-# Replace placeholder values with your actual OPNsense-generated config
-# (pulled from Services > Squid Proxy > Administration on your live box)
+# Reconstructed from the actual build/test process — the OPNsense lab VM
+# is no longer available, so this is not a live export. Reflects the
+# working configuration confirmed during testing.
 
 # --- Transparent interception ---
 http_port 3128 intercept
